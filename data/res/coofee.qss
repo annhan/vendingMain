@@ -1,0 +1,225 @@
+QMainWindow {
+    background: url(:/images/images/brushed_metal.png);    
+}
+QDialog {
+    background: url(:/images/images/brushed_metal.png);  
+    border:2px solid blue
+}
+
+QPushButton,
+ActionButton{
+    border: 2px solid black;
+    border-radius: 4px;
+    font: 10pt "Lato Heavy";
+}
+
+QPushButton:checked,
+QPushButton:pressed {
+    border-color: blue;
+    background-color: #d0d67c;
+    color: #0000FF;
+}
+
+QPushButton:hover,
+ActionButton:hover {
+    border: 2px solid blue;
+}
+
+QPushButton:disabled,
+ActionButton:disabled {
+    color: gray;
+}
+
+QTextEdit{
+    border: 2px solid black;
+    border-radius: 4px;
+    font: 20pt "Lato Heavy";
+    color: blue;
+    text-align:center;
+}
+
+
+QFrame#FRAME_CAROT{
+            border-image: url(:/FOOD/Food/2.jpg);
+        background-repeat: no-repeat; 
+        background-position: center;
+}
+
+
+QScrollArea{background-color:transparent;}
+scrollAreaContents{background-color:transparent;}
+
+
+QLabel {
+    font: 10pt "Lato Heavy";
+    color: black;
+}
+
+QLabel#lbl_totalMoney{
+    background: rgb(250, 250, 250);
+    border: 2px solid black;
+    border-radius: 4px;
+    font: 20pt "Lato Heavy";
+    color: blue;
+}
+
+StatusLabel,
+StateLabel {
+    background: rgb(250, 250, 250);
+    font: 10pt "Lato Heavy";
+    color: black;
+}
+
+DROLabel {
+    background: #202020;
+    border: 1px solid black;
+    border-radius: 4px;
+    font: 20pt "Lato Heavy";
+    color: #00FF00;
+}
+QTableWidget{
+            background: lightblue;
+        }
+QHeaderView::section{background-color: lightblue}
+
+
+QLineEdit {
+    background: rgb(250, 250, 250);
+    border: 1px solid;
+    border-left-color: black;
+    border-top-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+    font: 10pt "Lato Heavy";
+}
+
+QTextEdit {
+    background: rgb(250,250,250);
+    font: 10pt "Lato";
+}
+
+QCheckBox {
+    font: 10pt "Lato Heavy";
+}
+
+QCheckBox::indicator {
+    width: 12px;
+    height: 12px;
+}
+
+
+
+QGroupBox {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 16px;
+    font: 10pt "Lato Heavy";
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    padding: 0 2px;
+    color: black;
+}
+
+QHeaderView {
+    background-color: #B0B0D0;
+    border: 0px transparent #32414B;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    font: 10pt "Lato Heavy";
+}
+
+QHeaderView::section::vertical::first,
+QHeaderView::section::vertical::only-one {
+    width: 60px;
+}
+
+
+
+QSlider::sub-page:horizontal {
+    background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #bbf stop: 1 #55f);
+    border: 1px solid #777;
+    border-radius: 3px;
+    height: 12px;
+}
+
+QSlider::add-page:horizontal {
+    background: white;
+    border: 1px solid #777;
+    border-radius: 3px;
+    width: 12px;
+}
+
+QSlider::add-page:vertical {
+    background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #bbf, stop: 1 #55f);
+    border: 1px solid #777;
+    border-radius: 3px;
+    height: 12px;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+    border: 1px solid #777;
+    border-radius: 3px;
+    width: 12px;
+}
+
+QSlider::handle:horizontal {
+    background: lightgray;
+    border: 1px solid black;
+    width: 12px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border-radius: 2px;
+}
+
+QSlider::handle:vertical {
+    background: lightgray;
+    border: 1px solid black;
+    height: 12px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border-radius: 2px;
+}
+
+
+
+QSpinBox {
+    padding-right: 15px; /* make room for the arrows */
+    border-width: 3px;
+    height: 40px;
+}
+
+QSpinBox::down-button {
+    width: 20px;
+    height: 20px;
+}
+
+
+QTabWidget {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+    font: 10pt "Lato Heavy";
+    background: lightgray;
+    color: gray;
+}
+
+QTabWidget::title {
+    subcontrol-origin: margin;
+    padding: 0 3px;
+    color: black;
+}
+
+
+
+QComboBox{
+    color: rgb(255, 149, 0 );
+    background-color: lightgray;
+}
+
+QComboBox QAbstractItemView{border: 0px;color:orange}
